@@ -12,7 +12,7 @@ db.set_character_set('utf8')
 c=db.cursor()
 
 #! Выполнить вставку
-c.execute("insert into prodact (prodact_name, description) VALUES (%s, %s);", ('Кофе', 'Tasty'))
+c.execute("insert into prodact (prodact_name, description) VALUES (%s, %s);", ('Кефир', '3,5%'))
 #! Фиксирование изменений
 db.commit()
 
